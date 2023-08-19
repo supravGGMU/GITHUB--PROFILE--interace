@@ -1,0 +1,110 @@
+/* Styling for the body of the webpage */
+body {
+    height: 100%;
+    color: hsla(0, 0%, 100%, 0.85); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Styling for level 1 headings */
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 2, 2);
+    text-transform: uppercase;
+    
+  
+}
+
+/* Styling for form groups */
+.form-group {
+    text-align: center;
+}
+
+/* Styling for input elements */
+input {
+    width: 500px;
+    height: 800px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+/* Styling for input elements in focus state */
+input:focus {
+    outline: none;
+}
+
+/* Styling for elements with class "java" */
+.java {
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: .5;
+}
+
+/* Styling for image elements */
+img {
+    width: 120px;
+    border-radius: 60px;
+    text-align: center;
+}
+
+/* Styling for button elements */
+.button {
+    background-color: #ff1313;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    
+    border-radius: 20px;
+}
+
+/* Styling for button elements in hover state */
+.button:hover {
+    background-color: greenyellow;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+/* Styling for the element with ID "search" */
+#search {
+    border-radius: 5px;
+    width: 35; /* You might want to specify a unit like "35px" here */
+    text-decoration: none;
+    border: none;
+    height: 25px;
+}
+
+/* Styling for the element with ID "result" */
+#result {
+    font-family: 'Rubik Wet Paint', cursive;
+}
+#result p{
+    color: rgb(255, 0, 0)
+    ;
+    font-size: 20px;
+    font-weight: bold;
+}
+#result h2{
+    color: rgb(255, 0, 0)
+    ;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* Styling for images within the element with ID "result" */
+#result img {
+    box-shadow: -7px 2px 8px black;
+}
+
+/* Styling for images within the element with ID "result" when hovered */
+#result img:hover {
+    border: 1px solid white;
+}
